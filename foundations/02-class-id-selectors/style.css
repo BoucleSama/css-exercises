@@ -1,0 +1,23 @@
+/* style css */
+
+p {
+    background-color: rgb(248, 175, 186);
+    font-family: Verdana, "DejaVU Sans", sans-serif;
+
+}
+
+#secondelement {
+    color: rgb(0, 0, 255);
+    font-size: 36px ;
+
+}
+
+.thirdelement {
+    font-size: 24px;
+}
+
+#fourthelement {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
