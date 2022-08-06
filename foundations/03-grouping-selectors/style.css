@@ -1,0 +1,13 @@
+/* stylesheet css */
+.mario,
+.luigi {
+    font-size: 28px;
+    font-family: Helvetica,'Times New Roman', sans-serif;
+}
+.mario {
+    background-color: black;
+    color: #ffffff;
+}
+.luigi {
+    background-color: yellow;
+}
