@@ -3,12 +3,18 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
+  
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
+  
 }
 
 .header {
+  display: flex;
+  align-items: center;
+   
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -23,10 +29,13 @@ body {
 }
 
 .logo {
+ 
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding: 8px;
+  
 }
 
 button {
@@ -44,5 +53,15 @@ a {
 }
 
 ul {
+  gap: 8px; 
+  display: flex;
+  padding: 8px;
   list-style-type: none;
+ 
+}
+body .add {
+  display: flex;
+  margin-left: auto;
+  gap: 8px; 
+ padding: 16px;
 }
